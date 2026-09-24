@@ -3,7 +3,7 @@ from datetime import date
 import itslive
 
 
-bbox = [-25, 64, -19, 67]
+bbox = [74.50, 36.35, 74.65, 36.48]
 
 print("Starting streaming search...")
 
