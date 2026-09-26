@@ -15,7 +15,7 @@ from matplotlib.patches import Rectangle
 
 from glofnet.common.find_glacier import load_glacier
 from glofnet.itslive.config import GLACIER_ID
-from glofnet.itslive.search_granules import search_granules
+from glofnet.itslive.granules.search_granules import search_granules
 
 
 def main():

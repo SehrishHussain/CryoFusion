@@ -15,8 +15,8 @@ from glofnet.common.geospatial import (
     reproject_geometry,
 )
 from glofnet.itslive.config import GLACIER_ID
-from glofnet.itslive.download_granules import download_granule
-from glofnet.itslive.search_granules import search_granules
+from glofnet.itslive.granules.download_granules import download_granule
+from glofnet.itslive.granules.search_granules import search_granules
 
 
 def has_valid_pixels(path: Path) -> bool:

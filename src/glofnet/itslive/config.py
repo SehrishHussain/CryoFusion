@@ -10,7 +10,7 @@ GLACIER_ID = "RGI2000-v7.0-G-14-08488"
 
 STAC_URL = "https://stac.itslive.cloud"
 
-COLLECTION_NAME = "itslive-granules"
+COLLECTION_NAME = "itslive-cubes"
 
 
 
@@ -20,7 +20,7 @@ COLLECTION_NAME = "itslive-granules"
 
 OUTPUT_DIRECTORY = "data/raw/itslive"
 
-COLLECTION_NAME = "itslive-granules"
+COLLECTION_NAME = "itslive-cubes"
 
 START_DATE = "2024-01-01"
 END_DATE = "2026-12-31"

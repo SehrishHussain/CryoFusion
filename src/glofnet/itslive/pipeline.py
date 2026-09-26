@@ -12,7 +12,7 @@ Workflow
 from glofnet.itslive.preprocess.pipeline import (
     run_pipeline as preprocess_pipeline,
 )
-from glofnet.itslive.select_granule import select_granule
+from glofnet.itslive.granules.select_granule import select_granule
 
 
 def run_pipeline():

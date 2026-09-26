@@ -11,7 +11,7 @@ import requests
 
 from glofnet.common.paths import RAW_DIRECTORY
 from glofnet.itslive.models import GranuleInfo
-from glofnet.itslive.search_granules import search_granules
+from glofnet.itslive.granules.search_granules import search_granules
 
 
 

@@ -7,7 +7,7 @@ import webbrowser
 
 import requests
 
-from glofnet.itslive.search_granules import connect_to_catalog
+from glofnet.itslive.granules.search_granules import connect_to_catalog
 from glofnet.itslive.config import (
     COLLECTION_NAME,
     START_DATE,

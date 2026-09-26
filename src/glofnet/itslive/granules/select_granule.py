@@ -8,10 +8,10 @@ valid velocity pixels over the glacier.
 from dataclasses import dataclass
 from pathlib import Path
 
-from glofnet.itslive.download_granules import download_granule
-from glofnet.itslive.evaluate_granule import evaluate_granule
+from glofnet.itslive.granules.download_granules import download_granule
+from glofnet.itslive.granules.evaluate_granule import evaluate_granule
 from glofnet.itslive.models import GranuleInfo
-from glofnet.itslive.search_granules import search_granules
+from glofnet.itslive.granules.search_granules import search_granules
 
 
 @dataclass
